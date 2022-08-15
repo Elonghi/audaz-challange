@@ -43,13 +43,15 @@ Apos definir os valores e qual operadora vai receber basta apertar no botão sav
 Temos agora uma fare cadastrada para o operadora PO01
 ![image](https://user-images.githubusercontent.com/47927459/184674623-4f5d5ee4-fc35-49b0-812d-a10eedae36e8.png)
 
-Caso você tente adicionar uma fare de mesmo valor para esta mesma operadora não vai ser possivel. Pois esta operadora já tem uma fare ativa em um periodo menor que 6 meses 
+Caso você tente adicionar uma fare de mesmo valor para esta mesma operadora não vai ser possivel. Pois esta operadora já tem uma fare ativa em um periodo menor que 6 meses <br>
 ![image](https://user-images.githubusercontent.com/47927459/184674875-1ca2a39b-610c-43c8-9f4b-d6bf81e07487.png)
 
 Também é possivel desativar uma fare. Basta você apertar no botão azul escrito edit.
 
 Nesta tela você consegue trocar a operadora que vai receber a fare, mudar o valor e ativar ou desativar esta fare.
 ![image](https://user-images.githubusercontent.com/47927459/184675268-233a9055-918c-4f52-a97d-3c81ef1a7c86.png)
+
+Caso você desative a fare vai ser possivel cadastrar uma nova de mesmo valor para aquela operadora.
 
 ## Contato
  Caso tenha ficado com alguma duvida sobre o Código ou sobre a usabilidade do sistema pode me enviar um email para eduardolonghi5@gmail.com.
