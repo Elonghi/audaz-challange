@@ -11,29 +11,23 @@
 
 O código abaixo precisa cadastrar uma tarifa de ônibus relacionando as entidades "Operator" e "Fare", onde "Fare" é a tarifa e "Operator" a operadora de benefício de vale-transporte. Uma "Fare" só pode ser cadastrada caso aquela operadora não possua nenhuma tarifa ativa (Fare.Status == 1) de mesmo valor dentro de um período de 6 meses. Porém o desenvolvedor que iniciou este código precisou parar o trabalho por tempo indeterminado e agora você precisa completá-lo e garantir que funcione.
 
+## Requisitos
+
+Composer 2.3^
+PHP 7.4^
+
 ## Rodando o projeto
 
-Assim que você baixar o projeto o primeiro passo para que ele funcione é abrir um terminar na pasta raiz e rodar o composer install para que as dependencias possam ser instaladas.
+Assim que você baixar o projeto o primeiro passo para que ele funcione é abrir um terminar na pasta raiz e rodar o <b> composer install </b> para que as dependencias possam ser instaladas.
 
-## Laravel Sponsors
+Apos a finalização da instalação das dependencias você já pode rodar o comando <b>php artisan serve</b> para que ele crie um servidor local na porta 8000
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+O Banco de dados do projeto esta hospedado na AWS então não é necessario configurar nada depois que baixar o projeto.
 
-### Premium Partners
+## Como funciona
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+
+
 
 ## Contributing
 
