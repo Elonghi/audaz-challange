@@ -7,9 +7,9 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+## About Challange
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+O código abaixo precisa cadastrar uma tarifa de ônibus relacionando as entidades "Operator" e "Fare", onde "Fare" é a tarifa e "Operator" a operadora de benefício de vale-transporte. Uma "Fare" só pode ser cadastrada caso aquela operadora não possua nenhuma tarifa ativa (Fare.Status == 1) de mesmo valor dentro de um período de 6 meses. Porém o desenvolvedor que iniciou este código precisou parar o trabalho por tempo indeterminado e agora você precisa completá-lo e garantir que funcione.
 
 - [Simple, fast routing engine](https://laravel.com/docs/routing).
 - [Powerful dependency injection container](https://laravel.com/docs/container).
