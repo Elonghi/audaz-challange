@@ -49,6 +49,19 @@ Caso você desative a fare vai ser possivel cadastrar uma nova de mesmo valor pa
 ## Contato
  Caso tenha ficado com alguma duvida sobre o Código ou sobre a usabilidade do sistema pode me enviar um email para eduardolonghi5@gmail.com.
 
+## Estrutura do projeto
+ Dentro da pasta raiz temos o arquivo .env que serve para configurar nossa conexão com o banco de dados.
+ 
+ Dentro da pasta database temos a pasta migrations que é onde ficam todas as criações de tabelas no banco de dados.
+
+ Dentro da pasta routes temos o arquivo web.php onde é possivel visualizar cada uma das rotas.
+
+ Dentro da pasta resources vamos ter a pasta views que é onde contem toda nossa parte de front-end do projeto.
+
+ Dentro da pasta app teremos o "Coração" da nossa aplicação. Temos nossos models dentro da pasta Models.
+ 
+ Ainda dentro da pasta app vamos ter a pasta Http onde vamos ter nossos controllers, validators, etc.
+
 ## Agradecimento
  Espero ter atendido as expectativas sobre o codigo escrito e sobre todos os requisitos do desafio.
  Fico no aguardo de um retorno.
